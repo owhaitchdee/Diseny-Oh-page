@@ -5,6 +5,7 @@ import Name from './components/App';
 import DONav from './components/Navbar';
 import BannerCarou from './components/Banner';
 import Allcards from './components/AllCards';
+import DesPF from './components/Hooks';
 import reportWebVitals from './reportWebVitals';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './css/main.css';
@@ -14,6 +15,7 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <DONav />
+    <DesPF />
     <BannerCarou />
     <Allcards />
     <Name />
