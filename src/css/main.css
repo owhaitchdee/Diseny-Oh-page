@@ -1,0 +1,51 @@
+body {
+    background-color: black;
+    background-image: url(../img/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-attachment: fixed;
+    scroll-behavior: smooth;
+    }
+
+#card-img{
+    width:200px;
+}
+
+#cardi{
+    display: flex;
+    flex-direction: column;
+    border: solid 2px black;
+    background-color: black;
+    opacity: 95%;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    padding: 20px;
+}
+
+.btn-primary {
+    height: 40px;
+    width: 170px;
+    border:solid;
+    border-color: blueviolet;
+    border-radius: 20px;
+    background-color: black;
+    color: rgb(251, 4, 251);
+    font-size: 16px;
+    font-weight: 400;
+    margin:5px;
+    vertical-align: middle;
+    }
+.btn-primary:hover {
+    background-color: rgb(71, 6, 87) !important;
+    transition: all .5s ease;
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+    }
+
+
