@@ -4,7 +4,17 @@ function Hooks (){
     let [varName, setVarName] = useState ("Initial Value");
     function abc(){
         // 3. Ternary operator
-       (varName === "Initial Value") ? (setVarName (varName = "Yes, ako pa rin to")) : (setVarName (varName = "No, iba na!"));
+       (varName === "Initial Value") ? (show()) : (change());
+
+       function show(){
+        setVarName (varName = "Yes, ako pa rin to");
+        document.getElementById('here').innerHTML = varName;
+       }
+
+       function change(){
+        setVarName (varName = "No, iba na!");
+        document.getElementById('here').innerHTML = varName;
+       }
 //        2. If else expression
         // if (varName === "Initial Value"){
         //     setVarName (varName = "Yes, ako pa rin ito");
