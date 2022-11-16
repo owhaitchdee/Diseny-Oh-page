@@ -2,7 +2,8 @@ import Card from 'react-bootstrap/Card';
 
 function Kard(card) {
     return(
-        <div className="col-12 col-md-6 col-lg-3 d-md-inline-flex d-sm-block d-lg-inline-flex justify-content-center mt-5 ">
+        <div className="col-sm-2 col-md-6 col-lg-3 d-md-inline-flex d-sm-block d-lg-inline-flex mt-5 justify-content-center">
+          <center>
           {['Dark'].map((variant) => (
         <Card
           key={variant}
@@ -22,6 +23,7 @@ function Kard(card) {
             </Card.Footer>
           </Card>
           ))}
+          </center>
         </div>
         
     ); 
